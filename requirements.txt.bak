@@ -1,0 +1,20 @@
+langchain
+langchain-core
+#langchain-community -- is  used to load documents from various sources, including text files and PDFs. It provides a unified interface for loading documents, making it easier to work with different types of data sources. 
+#The library includes various document loaders, such as TextLoader for loading text files and PyPDFLoader or PyMuPDFLoader for loading PDF files.
+
+
+#pypdf
+#pymupdf. These are the two libraries that are used to load PDF files. You can choose either of them based on your preference and requirements.
+
+# embeddings = convert text into vector representations,
+# sentence-transformers -- this library is used to generate embeddings for the documents. It provides pre-trained models that can be used to convert text into vector representations, which can then be stored in a vector database for efficient retrieval.
+
+
+faiss-cpu : for vector store
+chromadb : for vector store
+langchain-groq
+python-dotenv
+typesense
+langchain_openai
+langgraph
